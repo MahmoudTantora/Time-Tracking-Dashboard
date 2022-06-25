@@ -1,0 +1,1 @@
+import 'package:time_tracking_dashboard/domain/entities/period_entity.dart';class TimeFrameEntity {  PeriodEntity? dailyPeriod;  PeriodEntity? monthlyPeriod;  PeriodEntity? weeklyPeriod;  TimeFrameEntity({this.dailyPeriod, this.monthlyPeriod, this.weeklyPeriod});}

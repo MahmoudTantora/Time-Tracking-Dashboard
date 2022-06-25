@@ -1,0 +1,1 @@
+import 'package:time_tracking_dashboard/domain/entities/time_fram_entity.dart';class TimeTrackingEntity {  final TimeFrameEntity? timeFrameEntity;  final String? title;  TimeTrackingEntity({this.timeFrameEntity, this.title});}

@@ -1,0 +1,1 @@
+import 'package:bloc/bloc.dart';class ChooseTimePeriodCubit extends Cubit<int> {  ChooseTimePeriodCubit() : super(1);  choosePeriod(int period) {    if (period >= 0 && period <= 2) {      emit(period);      print(period);    }  }}

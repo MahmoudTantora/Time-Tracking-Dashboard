@@ -1,0 +1,1 @@
+import 'package:dartz/dartz.dart';import 'package:time_tracking_dashboard/domain/entities/app_error.dart';import 'package:time_tracking_dashboard/domain/entities/time_tracking_entity.dart';abstract class DashboardRepository {  Future<Either<AppError, List<TimeTrackingEntity>>> fetchTimeTrackingData();}

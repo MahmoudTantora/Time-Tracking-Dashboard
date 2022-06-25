@@ -1,0 +1,1 @@
+class PeriodEntity {  final int? current;  final int? previous;  PeriodEntity({this.current, this.previous});}

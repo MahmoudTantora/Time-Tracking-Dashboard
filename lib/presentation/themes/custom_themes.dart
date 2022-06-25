@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';import 'custom_colors.dart';class CustomThemes {  CustomThemes._();  static const TextStyle cardTitleStyle =      TextStyle(fontSize: 18, color: Colors.white);  static const TextStyle subTitleStyle =      TextStyle(color: CustomColors.paleBlueColor, fontSize: 14);}
